@@ -15,7 +15,7 @@ public class AppointmentHandler {
         appointments = new ArrayList<>();
         // Add initial appointments
         appointments.add(new Appointment(1, new Date(), "blood test", 1));
-        appointments.add(new Appointment(2, new Date(), "giving birth", 2));
+        appointments.add(new Appointment(2, new Date(), "pregnant checkup", 2));
         appointments.add(new Appointment(3, new Date(), "Surgery", 3));
     }
     public Handler getAllAppointments() {
